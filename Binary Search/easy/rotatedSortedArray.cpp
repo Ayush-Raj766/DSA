@@ -4,7 +4,7 @@ using namespace std;
 int index(int arr[] , int n , int key){
     int l =0;
     int r =n-1;
-    int ans = -1;
+    // int ans = -1;
     while(r>=l){
         int mid = (l+r)/2;
         if(arr[mid] == key){
