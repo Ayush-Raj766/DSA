@@ -19,6 +19,7 @@ class linklist{
         head = NULL;
         tail = NULL;
     }
+    
     void insert(int val){
         node* newNode = new node(val);
         if(head == NULL){
